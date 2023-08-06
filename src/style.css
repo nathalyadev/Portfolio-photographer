@@ -27,4 +27,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.875em;
+    margin: 1em 0;
+}
+
+.home .container-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 1em;
+    width: 100%;
+}
+
+.imgs-secondary {
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    width: 100%;
+}
+.img-landscape, .img-photo-person2 {
+    width: 100%;
+    max-width: 500px;
+}
+.img-main {
+    width: 100%;
+    max-width: 550px;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(16px);
 }
